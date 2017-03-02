@@ -6,7 +6,7 @@
 //  Copyright © 2017 leomoon. All rights reserved.
 //
 
-#import "Tag+CoreDataClass.h"
+#import "Tag.h"
 
 
 NS_ASSUME_NONNULL_BEGIN

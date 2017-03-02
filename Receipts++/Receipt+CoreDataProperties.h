@@ -6,7 +6,7 @@
 //  Copyright © 2017 leomoon. All rights reserved.
 //
 
-#import "Receipt+CoreDataClass.h"
+#import "Receipt.h"
 
 
 NS_ASSUME_NONNULL_BEGIN
