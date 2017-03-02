@@ -14,6 +14,10 @@
 		DA865A901E68AC6700DFC73A /* Receipts__.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA865A8E1E68AC6700DFC73A /* Receipts__.xcdatamodeld */; };
 		DA865A921E68AC6700DFC73A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA865A911E68AC6700DFC73A /* Assets.xcassets */; };
 		DA865A951E68AC6700DFC73A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA865A931E68AC6700DFC73A /* LaunchScreen.storyboard */; };
+		DA865AA41E68B39800DFC73A /* Tag+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = DA865A9D1E68B39800DFC73A /* Tag+CoreDataClass.m */; };
+		DA865AA51E68B39800DFC73A /* Tag+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = DA865A9F1E68B39800DFC73A /* Tag+CoreDataProperties.m */; };
+		DA865AA61E68B39800DFC73A /* Receipt+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = DA865AA11E68B39800DFC73A /* Receipt+CoreDataClass.m */; };
+		DA865AA71E68B39800DFC73A /* Receipt+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = DA865AA31E68B39800DFC73A /* Receipt+CoreDataProperties.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,14 @@
 		DA865A911E68AC6700DFC73A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA865A941E68AC6700DFC73A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA865A961E68AC6700DFC73A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA865A9C1E68B39800DFC73A /* Tag+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tag+CoreDataClass.h"; sourceTree = "<group>"; };
+		DA865A9D1E68B39800DFC73A /* Tag+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Tag+CoreDataClass.m"; sourceTree = "<group>"; };
+		DA865A9E1E68B39800DFC73A /* Tag+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tag+CoreDataProperties.h"; sourceTree = "<group>"; };
+		DA865A9F1E68B39800DFC73A /* Tag+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Tag+CoreDataProperties.m"; sourceTree = "<group>"; };
+		DA865AA01E68B39800DFC73A /* Receipt+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Receipt+CoreDataClass.h"; sourceTree = "<group>"; };
+		DA865AA11E68B39800DFC73A /* Receipt+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Receipt+CoreDataClass.m"; sourceTree = "<group>"; };
+		DA865AA21E68B39800DFC73A /* Receipt+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Receipt+CoreDataProperties.h"; sourceTree = "<group>"; };
+		DA865AA31E68B39800DFC73A /* Receipt+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Receipt+CoreDataProperties.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,14 @@
 		DA865A811E68AC6700DFC73A /* Receipts++ */ = {
 			isa = PBXGroup;
 			children = (
+				DA865A9C1E68B39800DFC73A /* Tag+CoreDataClass.h */,
+				DA865A9D1E68B39800DFC73A /* Tag+CoreDataClass.m */,
+				DA865A9E1E68B39800DFC73A /* Tag+CoreDataProperties.h */,
+				DA865A9F1E68B39800DFC73A /* Tag+CoreDataProperties.m */,
+				DA865AA01E68B39800DFC73A /* Receipt+CoreDataClass.h */,
+				DA865AA11E68B39800DFC73A /* Receipt+CoreDataClass.m */,
+				DA865AA21E68B39800DFC73A /* Receipt+CoreDataProperties.h */,
+				DA865AA31E68B39800DFC73A /* Receipt+CoreDataProperties.m */,
 				DA865A851E68AC6700DFC73A /* AppDelegate.h */,
 				DA865A861E68AC6700DFC73A /* AppDelegate.m */,
 				DA865A881E68AC6700DFC73A /* ViewController.h */,
@@ -154,9 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA865AA51E68B39800DFC73A /* Tag+CoreDataProperties.m in Sources */,
 				DA865A901E68AC6700DFC73A /* Receipts__.xcdatamodeld in Sources */,
 				DA865A8A1E68AC6700DFC73A /* ViewController.m in Sources */,
+				DA865AA61E68B39800DFC73A /* Receipt+CoreDataClass.m in Sources */,
 				DA865A871E68AC6700DFC73A /* AppDelegate.m in Sources */,
+				DA865AA41E68B39800DFC73A /* Tag+CoreDataClass.m in Sources */,
+				DA865AA71E68B39800DFC73A /* Receipt+CoreDataProperties.m in Sources */,
 				DA865A841E68AC6700DFC73A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
