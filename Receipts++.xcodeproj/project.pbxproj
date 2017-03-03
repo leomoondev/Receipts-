@@ -18,6 +18,10 @@
 		DA865AA51E68B39800DFC73A /* Tag+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = DA865A9F1E68B39800DFC73A /* Tag+CoreDataProperties.m */; };
 		DA865AA61E68B39800DFC73A /* Receipt.m in Sources */ = {isa = PBXBuildFile; fileRef = DA865AA11E68B39800DFC73A /* Receipt.m */; };
 		DA865AA71E68B39800DFC73A /* Receipt+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = DA865AA31E68B39800DFC73A /* Receipt+CoreDataProperties.m */; };
+		DA865AAA1E68C2F100DFC73A /* NewReceiptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA865AA91E68C2F100DFC73A /* NewReceiptViewController.m */; };
+		DA865AD71E68E6F400DFC73A /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DA865AD61E68E6F400DFC73A /* CoreDataManager.m */; };
+		DA865ADA1E68EAF900DFC73A /* TagTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA865AD91E68EAF900DFC73A /* TagTableViewCell.m */; };
+		DA865ADD1E68EB0C00DFC73A /* ReceiptTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA865ADC1E68EB0C00DFC73A /* ReceiptTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,14 @@
 		DA865AA11E68B39800DFC73A /* Receipt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Receipt.m; sourceTree = "<group>"; };
 		DA865AA21E68B39800DFC73A /* Receipt+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Receipt+CoreDataProperties.h"; sourceTree = "<group>"; };
 		DA865AA31E68B39800DFC73A /* Receipt+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Receipt+CoreDataProperties.m"; sourceTree = "<group>"; };
+		DA865AA81E68C2F100DFC73A /* NewReceiptViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewReceiptViewController.h; sourceTree = "<group>"; };
+		DA865AA91E68C2F100DFC73A /* NewReceiptViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewReceiptViewController.m; sourceTree = "<group>"; };
+		DA865AD51E68E6F400DFC73A /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		DA865AD61E68E6F400DFC73A /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
+		DA865AD81E68EAF900DFC73A /* TagTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagTableViewCell.h; sourceTree = "<group>"; };
+		DA865AD91E68EAF900DFC73A /* TagTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagTableViewCell.m; sourceTree = "<group>"; };
+		DA865ADB1E68EB0C00DFC73A /* ReceiptTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiptTableViewCell.h; sourceTree = "<group>"; };
+		DA865ADC1E68EB0C00DFC73A /* ReceiptTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiptTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +84,9 @@
 		DA865A811E68AC6700DFC73A /* Receipts++ */ = {
 			isa = PBXGroup;
 			children = (
+				DA865AD11E68E42500DFC73A /* UI */,
+				DA865AD51E68E6F400DFC73A /* CoreDataManager.h */,
+				DA865AD61E68E6F400DFC73A /* CoreDataManager.m */,
 				DA865A9C1E68B39800DFC73A /* Tag.h */,
 				DA865A9D1E68B39800DFC73A /* Tag.m */,
 				DA865A9E1E68B39800DFC73A /* Tag+CoreDataProperties.h */,
@@ -84,9 +99,13 @@
 				DA865A861E68AC6700DFC73A /* AppDelegate.m */,
 				DA865A881E68AC6700DFC73A /* ViewController.h */,
 				DA865A891E68AC6700DFC73A /* ViewController.m */,
-				DA865A8B1E68AC6700DFC73A /* Main.storyboard */,
+				DA865AA81E68C2F100DFC73A /* NewReceiptViewController.h */,
+				DA865AA91E68C2F100DFC73A /* NewReceiptViewController.m */,
+				DA865AD81E68EAF900DFC73A /* TagTableViewCell.h */,
+				DA865AD91E68EAF900DFC73A /* TagTableViewCell.m */,
+				DA865ADB1E68EB0C00DFC73A /* ReceiptTableViewCell.h */,
+				DA865ADC1E68EB0C00DFC73A /* ReceiptTableViewCell.m */,
 				DA865A911E68AC6700DFC73A /* Assets.xcassets */,
-				DA865A931E68AC6700DFC73A /* LaunchScreen.storyboard */,
 				DA865A961E68AC6700DFC73A /* Info.plist */,
 				DA865A8E1E68AC6700DFC73A /* Receipts__.xcdatamodeld */,
 				DA865A821E68AC6700DFC73A /* Supporting Files */,
@@ -100,6 +119,15 @@
 				DA865A831E68AC6700DFC73A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA865AD11E68E42500DFC73A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DA865A931E68AC6700DFC73A /* LaunchScreen.storyboard */,
+				DA865A8B1E68AC6700DFC73A /* Main.storyboard */,
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,12 +202,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA865ADD1E68EB0C00DFC73A /* ReceiptTableViewCell.m in Sources */,
 				DA865AA51E68B39800DFC73A /* Tag+CoreDataProperties.m in Sources */,
+				DA865AAA1E68C2F100DFC73A /* NewReceiptViewController.m in Sources */,
+				DA865AD71E68E6F400DFC73A /* CoreDataManager.m in Sources */,
 				DA865A901E68AC6700DFC73A /* Receipts__.xcdatamodeld in Sources */,
 				DA865A8A1E68AC6700DFC73A /* ViewController.m in Sources */,
 				DA865AA61E68B39800DFC73A /* Receipt.m in Sources */,
 				DA865A871E68AC6700DFC73A /* AppDelegate.m in Sources */,
 				DA865AA41E68B39800DFC73A /* Tag.m in Sources */,
+				DA865ADA1E68EAF900DFC73A /* TagTableViewCell.m in Sources */,
 				DA865AA71E68B39800DFC73A /* Receipt+CoreDataProperties.m in Sources */,
 				DA865A841E68AC6700DFC73A /* main.m in Sources */,
 			);
